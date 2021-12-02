@@ -1,5 +1,13 @@
 main {
   background-size: cover;
-  height: 640px;
+  height: 755px;
   align-content: center;
+}
+
+.character {
+  display: center;
+  align-items: center;
+  /* grid-template-rows: 1.5fr 1fr 2fr; */
+  height: 700px;
+  width: 200px;
 }

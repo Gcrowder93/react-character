@@ -9,7 +9,7 @@ export default function Character(props) {
         className="character"
         style={{ head: props.head, middle: props.middle, bottom: props.bottom }}
       >
-        <img height="100" src={`${process.env.PUBLIC_URL}/character/${props.Character}.svg`} />
+        <img height="150" src={`${process.env.PUBLIC_URL}/character/${props.Character}.svg`} />
         <span className="name">{props.head}</span>
         <span>{props.says}</span>
       </div>
