@@ -14,9 +14,9 @@ Object {
           src="/outfits/duck-head.png"
         />
         <img
-          alt="pink"
+          alt="blue"
           height="75"
-          src="/outfits/pink-middle.png"
+          src="/outfits/blue-middle.png"
         />
         <img
           alt="blue"
@@ -40,9 +40,9 @@ Object {
         src="/outfits/duck-head.png"
       />
       <img
-        alt="pink"
+        alt="blue"
         height="75"
-        src="/outfits/pink-middle.png"
+        src="/outfits/blue-middle.png"
       />
       <img
         alt="blue"
