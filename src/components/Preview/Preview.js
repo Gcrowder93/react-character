@@ -11,7 +11,7 @@ export default function Preview({ head, middle, bottom, catchPhrase }) {
         src={`${process.env.PUBLIC_URL}/outfits/${middle}-middle.png`}
       />
       <img alt={bottom} height="75" src={`${process.env.PUBLIC_URL}/outfits/${bottom}-pants.png`} />
-      <p> {catchPhrase} </p>
+      {/* <p> {catchPhrase} </p> */}
     </div>
   );
 }

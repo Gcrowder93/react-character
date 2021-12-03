@@ -33,7 +33,14 @@ export default function Main() {
       {!!headCount && <p>You have changed the head {headCount} times</p>}
       {!!middleCount && <p>You have changed the body {middleCount} times</p>}
       {!!bottomCount && <p>You have changed the legs {bottomCount} times</p>}
-      {!!catchPhraseList && <p>{catchPhraseList}</p>}
+      {!!catchPhraseList && (
+        <p>
+          {catchPhraseList.map((elem) => (
+            <p key={elem}>{elem}</p>
+          ))}
+        </p>
+      )}
+      {/* {!!catchPhraseList && <p>{catchPhraseList}</p>} */}
     </main>
   );
 }

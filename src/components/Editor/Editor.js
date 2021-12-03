@@ -74,6 +74,7 @@ export default function Editor({
       <label>Create a Catch Phrase</label>
       <div className="form-control">
         <input
+          name="catch"
           type="text"
           value={catchPhrase}
           // value={setCatchPhrase}
